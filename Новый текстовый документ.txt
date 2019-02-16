@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+void main()
+{
+	setlocale (LC_ALL, "Rus");
+	float a,b,c;
+	cout<<"введите 1 число"<<endl;
+	cin>>a;
+	cout<<"введите 2 число"<<endl;
+	cin>>b;
+	cout<<"введите  число na kotoroe delit'"<<endl;
+	cin>>c;
+	if (c==0)
+	{
+		cout<<"alo, nel'za delit' na 0"<<endl;
+	}
+	else 
+	{ 
+		cout<<"otvet"<<endl;
+		cout<<1.0*(a+b)/c<<endl;
+	}
+	system("pause");
+
+}
